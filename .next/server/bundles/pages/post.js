@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -137,7 +137,8 @@ var _jsxFileName = "C:\\Users\\Afiqah Rashid\\Documents\\Git\\create-dynamic-pag
 var layoutStyle = {
   margin: 20,
   padding: 20,
-  border: '1px solid #DDD'
+  border: '1px solid #DDD',
+  fontFamily: "'Karla', serif"
 };
 
 var Layout = function Layout(props) {
@@ -145,12 +146,12 @@ var Layout = function Layout(props) {
     style: layoutStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Header__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     }
   }), props.children);
 };
@@ -176,22 +177,29 @@ var _jsxFileName = "C:\\Users\\Afiqah Rashid\\Documents\\Git\\create-dynamic-pag
       fileName: _jsxFileName,
       lineNumber: 4
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Karla",
+    rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     }
-  }, props.url.query.title), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
+    }
+  }, props.url.query.title), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
     }
   }, "This is the blog post content."));
 });
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/post.js");
