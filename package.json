@@ -1,7 +1,8 @@
 {
-  "name": "hello-next",
+  "name": "nextjs-boilerplate",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://aficat.github.io/nextjs-boilerplate",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 8080",
