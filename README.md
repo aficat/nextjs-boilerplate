@@ -7,3 +7,5 @@ This project was done by following the step-by-step tutorial provided by [Next.J
 1. Clone repository.
 2. Install dependencies by running: `npm install`
 3. Run application by running: `npm run dev`
+
+![Homepage Screenshot](screenshot/Capture.JPG)
