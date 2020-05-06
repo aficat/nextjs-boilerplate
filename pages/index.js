@@ -15,7 +15,7 @@ export default () => (
     <h1>My Blog</h1>
     <ul>
       <PostLink id="hello" title="Hello There!" />
-      <PostLink id="new-content" title="Learn comething new!" />
+      <PostLink id="new-content" title="Learn something new!" />
       <PostLink id="new-in" title="What is new?" />
     </ul>
   </Layout>

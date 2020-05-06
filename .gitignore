@@ -3,8 +3,11 @@
 # vscode
 .vscode
 
-# next
-/.next
+.next
+
+# dotenv environment variables file (build for Zeit Now)
+.env
+.env.build
 
 # dependencies
 /node_modules
