@@ -14,9 +14,9 @@ export default () => (
     <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' />
     <h1>My Blog</h1>
     <ul>
-      <PostLink id="hello-nextjs" title="Hello Next.js" />
-      <PostLink id="learn-nextjs" title="Learn Next.js is awesome" />
-      <PostLink id="deploy-nextjs" title="Deploy apps with Zeit" />
+      <PostLink id="hello" title="Hello There!" />
+      <PostLink id="new-content" title="Learn comething new!" />
+      <PostLink id="new-in" title="What is new?" />
     </ul>
   </Layout>
 )

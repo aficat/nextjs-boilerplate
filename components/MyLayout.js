@@ -1,10 +1,13 @@
 import Header from './Header'
 
 const layoutStyle = {
-  margin: 20,
+  marginTop: 100,
+  marginLeft: 200,
+  marginRight: 200,
   padding: 20,
   border: '1px solid #DDD',
-  fontFamily: "'Karla', serif"
+  backgroundColor: '#ffd1dc',
+  fontFamily: "'Karla', serif",
 }
 
 const Layout = (props) => (
