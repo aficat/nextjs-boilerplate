@@ -7,10 +7,10 @@ const linkStyle = {
 
 const Header = () => (
     <div>
-        <Link href="/">
+        <Link href="/" as={ process.env.BACKEND_URL + '/'}>
           <a style={linkStyle}>Home</a>
         </Link>
-        <Link href="/about">
+        <Link href="/about" as={ process.env.BACKEND_URL + '/about'}>
           <a style={linkStyle}>About</a>
         </Link>
     </div>
